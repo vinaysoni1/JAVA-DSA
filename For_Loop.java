@@ -20,10 +20,25 @@ class For_Loop{
         // }
         // System.out.println(sum);
         sc.close();
-        for(int i=1; i<=10; i++){
-            System.out.println(i*n);
-        }
 
+        // print multiplication table of n
+        // for(int i=1; i<=10; i++){
+        //     System.out.println(i*n);
+        // }
+
+        // print all even numbers from 1 to n
+        // for(int i=1; i<=n; i++){
+        //     if(i%2==0){
+        //         System.out.print(i+" ");
+        //     }
+        // }
+
+        // print all odd numbers from 1 to n
+        for(int i=1; i<=n; i++){
+            if(i%2!=0){
+                System.out.print(i+" ");
+            }
+        }
     }
 
 }
