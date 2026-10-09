@@ -44,14 +44,23 @@ class For_Loop{
         if(n<=1){
             System.out.println("No prime numbers in this range.");
         } else {
-            if(n>=1){
-                if(n%2==0 && n!=2){
-                    System.out.println("Not a prime number");
-                } else {
-                    System.out.println("Prime number");
+            for(int i=2; i<=n; i++){
+                if(i%2==0 && i!=2){
+                    // System.out.println(i+" is Not a prime number");
+                //
+                 } 
+                 else {
+                    System.out.println(i+" is Prime number");
                 }
-               
             }
+            // if(n>=1){
+            //     if(n%2==0 && n!=2){
+            //         System.out.println("Not a prime number");
+            //     } else {
+            //         System.out.println("Prime number");
+            //     }
+               
+            // }
         }
     }
 
