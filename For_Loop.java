@@ -1,3 +1,4 @@
+import java.util.*;
 class For_Loop{
     public static void main (String [] args){
         // for(int counter=0; counter<100; counter=counter+1){
@@ -5,9 +6,24 @@ class For_Loop{
         // }
 
         // print 1 to 10
-        for(int counter=1; counter<=10; counter++){
-            System.out.print(counter +" ");
+        // for(int counter=1; counter<=10; counter++){
+        //     System.out.print(counter +" ");
+        // }
+
+        // sum of first 10 natural numbers
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int n = sc.nextInt();
+        // int sum = 0;
+        // for(int i=1; i<=n; i++){
+        //     sum=sum+i;
+        // }
+        // System.out.println(sum);
+        sc.close();
+        for(int i=1; i<=10; i++){
+            System.out.println(i*n);
         }
+
     }
 
 }
