@@ -34,9 +34,23 @@ class For_Loop{
         // }
 
         // print all odd numbers from 1 to n
-        for(int i=1; i<=n; i++){
-            if(i%2!=0){
-                System.out.print(i+" ");
+        // for(int i=1; i<=n; i++){
+        //     if(i%2!=0){
+        //         System.out.print(i+" ");
+        //     }
+        // }
+
+        // print all prime numbers from 1 to n
+        if(n<=1){
+            System.out.println("No prime numbers in this range.");
+        } else {
+            if(n>=1){
+                if(n%2==0 && n!=2){
+                    System.out.println("Not a prime number");
+                } else {
+                    System.out.println("Prime number");
+                }
+               
             }
         }
     }
