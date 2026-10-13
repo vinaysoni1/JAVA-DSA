@@ -3,6 +3,7 @@ public class Check_Even {
 
     public static void checkEven(int n) {
 
+        // check even
         
 
             if (n % 2 == 0) {
