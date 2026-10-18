@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Palindrome {
 
     public static void checkPalidrome(int n) {
-
+// check plaidrome
         int original = n;
         int rev = 0;
         while (n > 0) {
