@@ -12,9 +12,14 @@ public class Strings {
         String Lname = sc.nextLine();
 
         // concatenation
-        String Fullname = Fname + " " + Lname; //" " use create space
+        String Fullname = Fname + "@" + Lname; //" " use create space
+        // System.out.println(Fullname);
+        // System.out.println(Fullname.length());  print String Length
 
-        System.out.println(Fullname);
+        // charAt
+        for(int i=0; i<Fullname.length(); i++){
+            System.out.println(Fullname.charAt(i));
+        }
         sc.close();
     }
 
