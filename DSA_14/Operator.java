@@ -10,7 +10,17 @@ class Operator {
         // System.out.println(b);
 
         // pre increment
-        b = ++a;
+        // b = ++a;
+        // System.out.println(a);
+        // System.out.println(b);
+
+        // pre decrement
+        // b = --a;
+        // System.out.println(a);
+        // System.out.println(b);
+
+        // post decrement
+         b = a--;
         System.out.println(a);
         System.out.println(b);
 
