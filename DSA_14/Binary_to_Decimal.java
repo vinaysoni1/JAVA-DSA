@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Binary_to_Decimal {
 
     static int binaryToDecimal(int num) {
@@ -18,7 +20,12 @@ public class Binary_to_Decimal {
 
     public static void main(String[] args) {
 
-        int num = 10101001;
-        System.out.println(binaryToDecimal(num));
+        
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter a Binary Number: ");
+        int n = sc.nextInt();
+        int Decimal= binaryToDecimal(n);
+        System.out.println("Decimal number is a :" +Decimal);
+        sc.close();
     }
 }
