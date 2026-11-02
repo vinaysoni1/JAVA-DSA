@@ -17,7 +17,8 @@ class Bubble_sort {
             // inner loop
             for (int j = 0; j < arr.length - i - 1; j++) {
 
-                if (arr[j] > arr[j + 1]) {
+                // if (arr[j] < arr[j + 1]) {  //descending order
+                if (arr[j] > arr[j + 1]) {  //ascending order
                     // swaping
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
