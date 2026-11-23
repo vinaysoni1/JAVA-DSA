@@ -8,6 +8,7 @@ public class Que_3 {
         }
         sum += i;
         calculateSum(i + 1, n, sum);
+        System.out.println(i);
     }
 
     public static void main(String[] args) {
