@@ -1,4 +1,5 @@
 public class Que_1 {
+    // print all  permuatation of String
     public static void printPerm(String str , String Permutation){
 
         if(str.length()==0){
