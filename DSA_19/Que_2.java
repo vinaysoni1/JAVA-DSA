@@ -1,4 +1,8 @@
 public class Que_2 {
+    // count total path in maze to move from (0,0) to (n,m) 
+    // condition move only
+    // right
+    // downward
     public static int countPath(int i, int j, int n, int m) {
 
         if (i == n || j == m) {
